@@ -117,3 +117,8 @@ width:100%;
     width: 0px;
     background: transparent; /* make scrollbar transparent */
 }
+button:hover
+
+{
+    background-color: brown;
+}
