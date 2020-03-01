@@ -92,7 +92,7 @@ h2{
     font-size: larger;
 }
 body section p {
-    overflow: hidden;
+    overflow: scroll;
     font-style: italic;
      width: 450px;
      height: 340px;
@@ -113,3 +113,7 @@ width:100%;
   position:absolute;
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
